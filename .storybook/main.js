@@ -3,12 +3,10 @@ module.exports = {
 
   addons: [
     "@storybook/addon-links",
-    "@storybook/addon-viewport",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
     "@storybook/preset-create-react-app",
     "@storybook/addon-a11y",
     "@chromatic-com/storybook",
+    "@storybook/addon-docs"
   ],
 
   framework: {
