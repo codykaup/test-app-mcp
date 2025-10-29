@@ -1,9 +1,5 @@
 import React from 'react';
 
-
-import { within } from '@storybook/testing-library';
-
-import { expect } from '@storybook/jest';
 import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -35,4 +31,5 @@ WithoutReducedMotion.parameters = {
         },
       },
     },
-  }
+  },
+};

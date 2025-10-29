@@ -8,7 +8,7 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/preset-create-react-app",
     "@storybook/addon-a11y",
-    "@storybook/mcp",
+    "@chromatic-com/storybook",
   ],
 
   framework: {
@@ -16,7 +16,9 @@ module.exports = {
     options: {},
   },
 
-  docs: {
-    autodocs: true,
+  docs: {},
+
+  typescript: {
+    reactDocgen: "react-docgen-typescript",
   },
 };
