@@ -53,6 +53,7 @@
     "@storybook/addon-a11y": "10.0.1",
     "@storybook/addon-docs": "10.0.1",
     "@storybook/addon-links": "10.0.1",
+    "@storybook/addon-mcp": "^0.1.1",
     "@storybook/preset-create-react-app": "10.0.1",
     "@storybook/react-vite": "^10.0.1",
     "@vitejs/plugin-react": "^5.1.0",
